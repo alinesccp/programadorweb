@@ -2,6 +2,7 @@ let x = 10
 let y = 5
 console.log('Resultado de x + y:', x + y)
 console.log(x += y)
+
 x = 10
 y = 5
 console.log('Resultado de x * y:', x * y)
@@ -19,6 +20,7 @@ let d = 2
 let e = 3
 let f = d * e
 console.log('Resultado de f:', d * e)
+console.log(f)
 
 let g = 9
 let h = 2
