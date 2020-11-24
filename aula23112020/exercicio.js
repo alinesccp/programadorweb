@@ -1,7 +1,7 @@
 let x = 10
 let y = 5
 console.log('Resultado de x + y:', x + y)
-
+console.log(x += y)
 x = 10
 y = 5
 console.log('Resultado de x * y:', x * y)
@@ -29,3 +29,8 @@ let j = 3
 let k = 2
 let l = j ** k
 console.log('Resultado de l:', j ** k)
+
+//alert(10 * 5)
+let n1 = 10
+let n2 = 5
+alert(n1 * n2)
