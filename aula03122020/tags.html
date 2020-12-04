@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="../aula02122020/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">  <!-- CSS em arquivo externo -->
+    <style> /* CSS dentro do html (Não muito utilizado) */
+        body {
+            background-color: darkgray;
+        }
+    </style>
     <meta charset="UTF-8">
     <title>Estrutura e TAGs do HTML</title>
 </head>
 <body>
     <header> <!--Criando um cabeçalho para nossa página com um menu-->
-        <h2>Minha página Web</h2>
+        <h2 style="color: blue; text-align: center;">Minha página Web</h2> <!-- Style diretamente na TAG-->
         <nav> <!--vamos criar um menu utilizando listas-->
             <ul>
                 <li>Home</li>
@@ -15,24 +20,62 @@
             </ul>
         </nav>
     </header>
+    <hr>
+
     <h1>Estrutura e TAGs do HTML</h1>
     <p>
         A estrutura básica do HTML5 é parecida as estrutra do XHTML e do HTML 4, contendo elementos HEAD e BODY. 
     </p>
+    <audio controls>
+        <source src="Audio/Deeper-than-Friendship.mp3" type="audio/ogg">
+        <source src="Audio/Deeper-than-Friendship.mp3" type="audio/">
+        O seu navegador não possui suporte para audio.
+    </audio>
+    <figure>
+        <img id="logo" src="../aula02122020/imagem/html5.png" alt="Logotipo HTML5">
+        <br/><span>Logomarca do HTML5</span>
+    </figure>
     <p>
         A tag html define o início da sua página, nela podemos adicionar o lang definindo a linguagem (português, inglês, espanhol, etc) da página.  Este atributo ajuda aos leitores de tela a ler corretamente os textos contidos na página, além dos buscadores poderem identificar o idioma e para que o navegador possa utilizar o dicionário gramatical mais correto. 
     </p>
-    <figure>
-        <img id="logo" src="../aula02122020/imagem/html5.png" alt="Logotipo HTML5">
-        <span>Logomarca do HTML5</span>
-    </figure>
+    <video controls>
+        <source src="Video/big_buck_bunny.ogv" type="video/mp4">
+        <source src="Video/big_buck_bunny.ogv" type="video/ogg">
+        O seu navegador não tem suporte para vídeos.
+    </video>
+    <p>
+        <pre> <!-- Tag utilizada para representar texto pré-formatado  -->
+            <strong>Informação!</strong>
+            As metas ajudam o seu site a descrever seu conteúdo aos buscadores, como o Google. 
+            Aqui você poderá dizer qual a codificação (charset), descrição e até palavras-chaves 
+            referentes a sua página.
+        </pre>
+    </p>
+
+    <p>
+        Os iframes servem para incluir recursos de uma outra página, ma sua página.
+    </p>
+    <iframe src="https://ead.ifpi.edu.br/">
+        <p>Seu navegador não possui suporte para iFrames.</p>
+    </iframe>
+
     <footer>
+        <hr/> <!-- Essa ag não necessita de fechamento, ela forma uma linha horizontal -->
         <div><!--criando uma divisão para meu rodapé-->
             <form method="POST" action="">
                 <input type="text" name="nome" placeholder="Digite o seu nome">
                 <input type="text" name="email" placeholder="Digite o seu E-mail">
                 <input type="submit" name="enviar" value="Enviar">
             </form>
+        </div>
+        <div>
+            <p>
+                Senac - Serviço Nacional de Aprendizagem Comercial - AR/PI
+            </p>
+            <p>
+                Avenida Campos Sales, 1111 - Centro - Teresina - PI. <br>
+                CEP: 64.000.100 - Telefone (86) 3228-9500   
+            </p>
         </div>
     </footer>
 </body>
