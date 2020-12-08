@@ -1,0 +1,23 @@
+body {
+    background-color: blueviolet;
+}
+header {
+    background-color: rgb(207, 131, 218);
+}
+
+img {
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 450px;
+}
+
+video {
+    padding: 5px;
+    width: 650px;
+}
+
+footer {
+    background-color: rgb(207, 131, 218);
+}
+
