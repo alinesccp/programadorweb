@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    background-color: #8dc2cb;
+}
+p {
+    text-align: justify;
+}
+#div_principal {
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+#artigos {
+    float: left;
+    width: 500px;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+}
+#lateral {
+    width: 270px;
+    float: right;
+    padding-left: 10px;
+}
+#rodape {
+    clear: both;
+    border-top: 1px solid #000000;
+    padding-top: 5px;
+    text-align: center;
+}
+#cabecalho {
+	border-bottom: 1px solid #000000;
+	border-radius: 15px;
+	margin-top: -8px;
+	padding: 1px 0 0 15px;
+	padding-bottom: 15px;
+	box-shadow: 10px 10px 5px #3e8d9b;
+	background-size: 100% 100%;
+	background: rgb(180, 211, 221); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%, rgb(82, 150, 177) 40%, rgb(0, 87, 83) 83%, rgba(0,36,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(180,221,180,1)), color-stop(40%,rgb(82, 177, 177)), color-stop(83%,rgb(0, 77, 87)), color-stop(100%,rgba(0,36,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgb(82, 177, 172) 40%,rgb(0, 62, 87) 83%,rgba(0,36,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgb(180, 221, 221) 0%,rgb(82, 177, 164) 40%,rgb(48, 122, 112) 83%,rgb(0, 31, 36) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgb(82, 158, 177) 40%,rgb(0, 87, 83) 83%,rgba(0,36,0,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(180,221,180,1) 0%,rgb(82, 174, 177) 40%,rgb(0, 67, 87) 83%,rgb(0, 35, 36) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#cabecalho h1 {
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px #003131;
+    font-family: 'Audiowide', cursive;
+    font-size: 270%;
+    color: #002731;
+}
+#cabecalho h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#cabecalho h3 {
+    margin-top: 0;
+}
+#cabecalho img {
+    float: right;
+    margin: 15px 15px 0 0;
+    width: 15%;
+    border: 1px solid #002e31;
+    background: url(../Imagem/ost.jpg) no-repeat;
+    -moz-box-shadow: 6px 6px 5px #002e31;
+	-webkit-box-shadow: 6px 6px 5px #002e31;
+	box-shadow: 6px 6px 5px #002e31;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+}
